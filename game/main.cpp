@@ -10,16 +10,6 @@
 #define GEN_ID (__LINE__)
 #endif
 
-enum UI_SizeKind
-{
-    UI_SizeKind_Null,
-    UI_SizeKind_Pixels,
-    UI_SizeKind_TextContent,
-    UI_SizeKind_PercentOfParent,
-    UI_SizeKind_ChildrenSum,
-};
-
-
 typedef struct UIState
 {
     int mouseX;
