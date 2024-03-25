@@ -64,7 +64,7 @@ int init( )
     }
 
     // Create window
-    app.window = SDL_CreateWindow( "imgui", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 640, 480,
+    app.window = SDL_CreateWindow( "Custom_UI", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 640, 480,
                                    SDL_WINDOW_SHOWN );
     if( app.window == NULL )
     {
